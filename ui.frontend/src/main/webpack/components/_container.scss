@@ -1,1 +1,41 @@
-.cmp-container {}
+/* Default Title Styles */
+.cmp-container {
+  padding: 64px 24px 64px 24px;
+  max-width: 100%;
+}
+
+/* Contained Title Styles */
+.cmp-container-contained {
+  max-width: 1200px;
+}
+
+/* container colour Styles */
+.cmp-container-transparent {
+  color: black;
+  background-color: transparent;
+}
+
+.cmp-container-white {
+  color: black;
+  background-color: white;
+}
+
+.cmp-container-light-gray {
+  color: black;
+  background-color: lightgray;
+}
+
+.cmp-container-dark-gray {
+  color: white;
+  background-color: darkgray;
+}
+
+.cmp-container-red {
+  color: white;
+  background-color: red;
+}
+
+.cmp-container-blue {
+  color: white;
+  background-color: blue;
+}

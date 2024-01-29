@@ -1,0 +1,14 @@
+<sly
+  data-sly-use.buttonModel="com.aem.aemaacs.demowebsite.core.models.ButtonModel"
+>
+  <button class="cmp-button">
+    <a
+      class="cmp-button-text"
+      href="${buttonModel.link}"
+      target="${buttonModel.newTab ? '_blank' : '_self'}"
+      aria-label="${buttonModel.accessibilityLabel}"
+    >
+      ${buttonModel.text}
+    </a>
+  </button>
+</sly>
